@@ -18,12 +18,16 @@ Abaixo, um exemplo do que é denominado como estrutura básica de um site:
 #03) Você pode usar o MSDos, o Git Bash ou o Terminal do VSC.
 #04) Teste o comando "git version".
 git version
+
 #05) É preciso definir um "Usuário" e "E-mail" padrão no Git.
 git config --global user.name "Fred"
+
 #06) Digite: git config --global user.name "Fred" (utilize: git config user.name, para checar).
 git config user.name
+
 #07) Digite: git config --global user.email "fred@fred.com" (utilize: git config user.email, para checar).
 git config --global user.email "fred@fred.com"
+
 #utilize: git config user.email, para checar
 git config user.email
 ```
