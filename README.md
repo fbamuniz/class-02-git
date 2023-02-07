@@ -1,4 +1,4 @@
-# HTML5
+# Git
 ![NPM](https://img.shields.io/npm/l/react)
 # Introdução
 
@@ -13,25 +13,19 @@ Para criar e editar códigos em HTML é necessário qualquer editor de texto com
 Abaixo, um exemplo do que é denominado como estrutura básica de um site:
 
 ```bash
-<!-- Isto é um comentário e pode ser usado em qualquer parte da página -->
-<!DOCTYPE html>
-<!-- Algumas tags possuem atributos e valores, como o caso do lang="pt-br" -->
-<html lang="pt-br">
-<!-- No cabeçalho são definidas configurações importantes sobre o funcionamento da página -->    
-<head>
-    <!-- As tags também são chamadas de elementos HTML -->
-    <meta charset="UTF-8">
-    <!-- Definimos um título para a página. Algumas tags possuem fechamento, como o caso de </title> -->
-    <title>Programação Web</title>
-</head>
-<!-- No body construímos a estrutura da página -->
-<body>
-<!-- Abaixo um exemplo simples de estrutura, com título e parágrafo -->    
-    <h1>Iniciando as aulas de Programação Web</h1>
-    <p>Esta é somente uma página contendo a estrura básica do HTML.</p>
-<!-- A indentação é um procedimento muito importante no âmbito do desenvolvimento de sistemas -->    
-</body>
-</html>
+#01) Baixe e instale o VSC e depois o Git (escolha o VSC como Git padrão).
+#02) Instale o plugin "Git Graph" no VSC.
+#03) Você pode usar o MSDos, o Git Bash ou o Terminal do VSC.
+#04) Teste o comando "git version".
+git version
+#05) É preciso definir um "Usuário" e "E-mail" padrão no Git.
+git config --global user.name "Fred"
+#06) Digite: git config --global user.name "Fred" (utilize: git config user.name, para checar).
+git config user.name
+#07) Digite: git config --global user.email "fred@fred.com" (utilize: git config user.email, para checar).
+git config --global user.email "fred@fred.com"
+#utilize: git config user.email, para checar
+git config user.email
 ```
 
 Existem programas profissionais para criação de páginas em HTML, como o Visual Studio Code ou Notepad++. Apesar da enorme importância para o mundo da informação, o HTML estancou na versão 4.0.1 desde 1999 e não acompanhou as dinâmicas mudanças que ocorreram nos últimos anos e para atender as necessidades careceu utilizar plugins externos como o já aposentado [Adobe Flash Player](https://pt.wikipedia.org/wiki/Adobe_Flash_Player) e outros. Mas felizmente, isso são coisas do passado, pois a [W3C](https://pt.wikipedia.org/wiki/W3C) (World Wide Web Consortium) e a [WHATWG](https://pt.wikipedia.org/wiki/WHATWG) (Web Hypertext Application Technology Working Group) disponibilizaram a versão HTML 5.
