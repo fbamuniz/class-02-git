@@ -173,6 +173,7 @@ No vídeo abaixo da Dotec, é apresentado um pequeno resumo do que é o HTML e s
 ## Referências
 
 - https://www.atlassian.com/br/git/tutorials/what-is-git.
+- https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Uma-Breve-Hist%C3%B3ria-do-Git
 - HTML5. Devmedia, disponível em: [https://www.devmedia.com.br](https://www.devmedia.com.br/as-novidades-do-html5/23992). Acesso em: 28 de jan. de 2023.
 
 # Como executar
