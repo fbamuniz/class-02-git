@@ -55,9 +55,9 @@ git config user.email
 
 
 
-No vídeo abaixo da Dotec, é apresentado um pequeno resumo do que é o HTML e sua aplicabilidade. 
+No vídeo abaixo da Rafaella Ballerini, é apresentado um pequeno resumo do que é o Git e Github. 
 
-[![Assista ao vídeo](https://img.youtube.com/vi/Tld2CrT5c2s/maxresdefault.jpg)](https://www.youtube.com/watch?v=Tld2CrT5c2s)
+[![Assista ao vídeo](https://img.youtube.com/vi/DqTITcMq68k/maxresdefault.jpg)](https://www.youtube.com/watch?v=DqTITcMq68k)
 
 ## Referências
 
