@@ -34,7 +34,7 @@ Uma crítica comum ao Git é que pode ser difícil de aprender. Algumas das term
 
 Para as equipes que vêm de um VCS não distribuído, ter um repositório central pode parecer uma coisa boa que eles não querem perder. No entanto, embora o Git tenha sido projetado como um sistema de controle de versão distribuído (DVCS), com o Git, você ainda pode ter um repositório canônico oficial em que todas as alterações no software devem ser armazenadas. Com o Git, como o repositório de cada desenvolvedor está completo, o trabalho não precisa ser restringido pela disponibilidade e desempenho do servidor "central". Durante interrupções ou quando offline, os desenvolvedores ainda podem consultar o histórico completo do projeto. Como o Git é flexível e está sendo distribuído, você pode trabalhar da maneira que está acostumado, mas obter os benefícios adicionais do Git, alguns dos quais você nem percebe que está perdendo.
 
-### Configurando seu computador local
+### 1. Configurando seu computador local
 
 Agora que você entendeu o que é o controle de versão, o que é o Git e por que as equipes de software deveriam optar por ele, vamos a prática! Considerando que você já [baixou o Git](#) e o [Visual Studio Code](), abra o prompt de comando (MS-DOS, Git ou no VSC) e execute os comandos abaixo: 
 
@@ -55,7 +55,7 @@ git config --global user.email "fred@fred.com"
 git config user.email
 ```
 
-### Baixando um repositório do Github no seu computador
+### 2. Baixando um repositório do Github no seu computador
 
 Considerando que você já possui uma conta aqui no [Github](#), crie um projeto somente com os arquivos README e com uma [licença MIT](#). Ao finalizar, você visualizará um botão chamado **Code**. Clique neste botão e copie a [URL](#) do diretório. Volte para o prompt do Git:
 
@@ -65,7 +65,7 @@ git clone https://github.com/user/project-name.git
 
 ```
 
-### Enviando um projeto local para o Github
+### 3. Enviando um projeto local para o Github
 
 Após ter criado e modificado os arquivos do seu projeto, agora você consegue envia-los para o diretório remoto do Github. Os comandos necessários para este procedimento são:
 
@@ -77,7 +77,7 @@ git status
 git add .
 
 # Faz o commit do container
-git commit -m "Versão 1.0"
+git commit -m "Versão x.x"
 
 # Envia as alterações para o Github
 git push
