@@ -53,6 +53,13 @@ git config --global user.email "fred@fred.com"
 git config user.email
 ```
 
+Agora considerando que você já possui uma conta aqui no [Github](#), crie um projeto somente com os arquivos README e com uma [licença MIT](#). Após pronto, você visualizará um botão chamado **Code**. Clique neste botão e copiei a [URL](#) do diretório. Volte para o prompt do Git:
+
+```bash
+#01) Crie um diretório, baixe o projeto que você criou e abra no VSC
+git clone https://github.com/user/project-name.git
+
+```
 
 
 No vídeo abaixo da Rafaella Ballerini, é apresentado um pequeno resumo do que é o Git e Github. 
@@ -63,7 +70,7 @@ No vídeo abaixo da Rafaella Ballerini, é apresentado um pequeno resumo do que 
 
 - https://www.atlassian.com/br/git/tutorials/what-is-git.
 - https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Uma-Breve-Hist%C3%B3ria-do-Git
-- HTML5. Devmedia, disponível em: [https://www.devmedia.com.br](https://www.devmedia.com.br/as-novidades-do-html5/23992). Acesso em: 28 de jan. de 2023.
+- HTML5. Devmedia, disponível em: [https://www.devmedia.com.br](https://www.devmedia.com.br/as-novidades-do-html5/23992). Acesso em: 11 de out. de 2023.
 
 # Como executar
 
