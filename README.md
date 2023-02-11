@@ -116,7 +116,7 @@ Observe no Git Graph que as três versões da Ana e Julia, agora estão incorpor
 
 ### 4. Sincronizando dois ou mais projetos locais no Github
 
-Uma das coisas mais comuns no Git são duas ou mais pessoas trabalhando no mesmo projeto remoto. Para o exemplo abaixo, imagine que Maria e Pedro baixaram o mesmo projeto do Github, fizeram alterações em suas computadores e agora desejam envia-los novamente para o repositório de origem. Para fazer esta simulação, usaremos um único computador, mas dois diretórios distintos, um chamado Maria e outro Pedro. Cada um será manipulado por um prompt diferente. Também vamos considerar que o projeto já está dentro de cada diretório, que você já fez algumas alterações e também executou os passos do item 3 (com exceção do push) em cada cópia.
+Uma das coisas mais comuns no Git são duas ou mais pessoas trabalhando no mesmo projeto remoto. Para o exemplo abaixo, imagine que Maria e Pedro baixaram o mesmo projeto do Github, fizeram alterações em seus computadores e agora desejam envia-los novamente para o repositório de origem. Para fazer esta simulação, usaremos um único computador, mas dois diretórios distintos, um chamado Maria e outro Pedro. Precisaremos de duas contas diferentes do Github, pois cada diretório será manipulado por um prompt diferente. Também vamos considerar que o projeto já está dentro de cada diretório, que você já fez algumas alterações e também executou os passos do item 3 (com exceção do push) em cada cópia.
 
 ```bash
 # Primeiramente, suba para o GitHub somente o projeto da Maria.
