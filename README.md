@@ -61,6 +61,25 @@ git clone https://github.com/user/project-name.git
 
 ```
 
+Após ter criado e modificado os arquivos do seu projeto, agora você consegue envia-los para o diretório remoto do Github. Os comandos necessários para este procedimento são:
+
+```bash
+# Verifica quais itens sofreram modificações
+git status
+
+# Adiciona todas as alterações em um container local
+git add .
+
+# Faz o commit do container
+git commit -m "Versão 1.0"
+
+# Envia as alterações para o Github
+git push
+
+```
+
+Retornando ao Github, você verá que as alterações locais foram enviadas para o seu repositório remoto.
+
 
 No vídeo abaixo da Rafaella Ballerini, é apresentado um pequeno resumo do que é o Git e Github. 
 
