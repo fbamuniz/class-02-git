@@ -34,25 +34,22 @@ Uma crítica comum ao Git é que pode ser difícil de aprender. Algumas das term
 
 Para as equipes que vêm de um VCS não distribuído, ter um repositório central pode parecer uma coisa boa que eles não querem perder. No entanto, embora o Git tenha sido projetado como um sistema de controle de versão distribuído (DVCS), com o Git, você ainda pode ter um repositório canônico oficial em que todas as alterações no software devem ser armazenadas. Com o Git, como o repositório de cada desenvolvedor está completo, o trabalho não precisa ser restringido pela disponibilidade e desempenho do servidor "central". Durante interrupções ou quando offline, os desenvolvedores ainda podem consultar o histórico completo do projeto. Como o Git é flexível e está sendo distribuído, você pode trabalhar da maneira que está acostumado, mas obter os benefícios adicionais do Git, alguns dos quais você nem percebe que está perdendo.
 
-Agora que você entende o que é o controle de versão, o que é o Git e por que as equipes de software deveriam optar por ele, vamos a prática. 
+Agora que você entendeu o que é o controle de versão, o que é o Git e por que as equipes de software deveriam optar por ele, vamos a prática! Considerando que você já [baixou o Git](#) e o [Visual Studio Code], abra o prompt de comando (MS-DOS, Git ou no VSC) e execute os comandos abaixo: 
 
 ```bash
-#01) Baixe e instale o VSC e depois o Git (escolha o VSC como Git padrão).
-#02) Instale o plugin "Git Graph" no VSC.
-#03) Você pode usar o MSDos, o Git Bash ou o Terminal do VSC.
-#04) Teste o comando "git version".
+#01) Exibe a versão do Git que você instalou.
 git version
 
-#05) É preciso definir um "Usuário" e "E-mail" padrão no Git.
+#02) É preciso definir um user no Git.
 git config --global user.name "Fred"
 
-#06) Digite: git config --global user.name "Fred" (utilize: git config user.name, para checar).
+#03) Verifica o nome que você criou
 git config user.name
 
-#07) Digite: git config --global user.email "fred@fred.com" (utilize: git config user.email, para checar).
+#04) É preciso definir um e-mail no Git.
 git config --global user.email "fred@fred.com"
 
-#utilize: git config user.email, para checar
+#05) Verifica o e-mail que você criou
 git config user.email
 ```
 
