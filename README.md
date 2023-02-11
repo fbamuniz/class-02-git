@@ -53,7 +53,7 @@ git config --global user.email "fred@fred.com"
 git config user.email
 ```
 
-Agora considerando que você já possui uma conta aqui no [Github](#), crie um projeto somente com os arquivos README e com uma [licença MIT](#). Após pronto, você visualizará um botão chamado **Code**. Clique neste botão e copiei a [URL](#) do diretório. Volte para o prompt do Git:
+Considerando que você já possui uma conta aqui no [Github](#), crie um projeto somente com os arquivos README e com uma [licença MIT](#). Ao finalizar, você visualizará um botão chamado **Code**. Clique neste botão e copie a [URL](#) do diretório. Volte para o prompt do Git:
 
 ```bash
 # Crie um diretório, baixe o projeto que você criou e abra no VSC
