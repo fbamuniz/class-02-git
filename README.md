@@ -128,7 +128,7 @@ git fetch
 # Verifique se você está no ramo origin (versão do Github).
 git remote
 
-# O comando abaixo modificará os arquivos no diretório, de acordo com os novos do Github, mas somente para análise.
+# O comando abaixo baixará os novos arquivos da Maria, mas somente para análise.
 git checkout origin
 
 # Retorne ao ramo master
