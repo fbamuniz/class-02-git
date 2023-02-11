@@ -22,7 +22,7 @@ Um dos principais objetivos de design do Git é a flexibilidade. O Git é flexí
 
 Hoje, o Git é a melhor escolha para a maioria das equipes de software. Embora cada equipe seja diferente e deva fazer a própria análise. O Git tem a funcionalidade, desempenho, segurança e flexibilidade que a maioria das equipes e desenvolvedores individuais precisa. Esses atributos do Git são explicados acima. Nas comparações lado a lado com a maioria das outras alternativas, muitas equipes acham que o Git é muito favorável.
 
-O Git é a ferramenta mais adotada da categoria. Ele é atraente pelos seguintes motivos. Na [Atlassian](#), quase todo código-fonte do projeto é gerenciado no Git. Um grande número de desenvolvedores já tem experiência com o Git e uma proporção significativa de recém-formados pode ter experiência apenas com o Git. Embora algumas empresas precisem escalar a curva de aprendizado ao migrar para o Git de outro sistema de controle de versão, muitos desenvolvedores existentes e futuros não precisam ser treinados no Git.
+O Git é a ferramenta mais adotada da categoria. Ele é atraente pelos seguintes motivos. Um grande número de desenvolvedores já tem experiência com o Git e uma proporção significativa de recém-formados pode ter experiência apenas com o Git. Embora algumas empresas precisem escalar a curva de aprendizado ao migrar para o Git de outro sistema de controle de versão, muitos desenvolvedores existentes e futuros não precisam ser treinados no Git.
 
 Além dos benefícios de um grande conjunto de talentos, a predominância do Git também significa que muitas ferramentas e serviços de software de terceiros já estão integrados ao Git, incluindo IDEs e novas ferramentas de uso como o cliente de desktop DVCS Sourcetree, software de rastreamento de itens e projetos, Jira, e serviço de hospedagem de código, Bitbucket.
 
@@ -68,9 +68,8 @@ No vídeo abaixo da Rafaella Ballerini, é apresentado um pequeno resumo do que 
 
 ## Referências
 
-- https://www.atlassian.com/br/git/tutorials/what-is-git.
-- https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Uma-Breve-Hist%C3%B3ria-do-Git
-- HTML5. Devmedia, disponível em: [https://www.devmedia.com.br](https://www.devmedia.com.br/as-novidades-do-html5/23992). Acesso em: 11 de out. de 2023.
+- Git. Git-SCM, disponível em: https://git-scm.com/book/pt-br/v2/Come%C3%A7ando-Uma-Breve-Hist%C3%B3ria-do-Git. Acesso em: 11 de fev. de 2023.
+- Git. Atlassian, disponível em: https://www.atlassian.com/br/git/tutorials/what-is-git. Acesso em: 11 de fev. de 2023.
 
 # Como executar
 
@@ -78,11 +77,6 @@ Pré-requisitos:
 - Visual Studio Code
 - GIT
 
-```bash
-# clonar repositório
-git clone https://github.com/fbamuniz/class-04-jquery3.git
-
-```
 
 # Bibliografia das aulas
 
