@@ -114,8 +114,33 @@ git merge Julia
 
 Observe no Git Graph que as três versões da Ana e Julia, agora estão incorporadas na versão Master. 
 
+### 4. Sincronizando dois ou mais projetos locais no Github
 
+Uma das coisas mais comuns no Git são duas ou mais pessoas trabalhando no mesmo projeto remoto. Para o exemplo abaixo, imagine que Maria e Pedro baixaram o mesmo projeto do Github, fizeram alterações em suas computadores e agora desejam envia-los novamente para o repositório de origem. Para fazer esta simulação, usaremos um único computador, mas dois diretórios distintos, um chamado Maria e outro Pedro. Cada um será manipulado por um prompt diferente. Também vamos considerar que o projeto já está dentro de cada diretório, que você já fez algumas alterações e também executou os passos do item 3 (com exceção do push) em cada cópia.
 
+```bash
+# Primeiramente, suba para o GitHub somente o projeto da Maria.
+git push
+
+# No diretório do Pedro, use o comando abaixo para baixar somente as alterações que Maria fez.
+git fetch
+
+# Verifique se você está no ramo origin (versão do Github).
+git remote
+
+# O comando abaixo modificará os arquivos no diretório, de acordo com os novos do Github, mas somente para análise.
+git checkout origin
+
+# Retorne ao ramo master
+git checkout main
+
+# Use o comando abaixo para resolver os conflitos. Na sequência, use os comandos do item 3.
+git pull
+
+# Para finalizar o sincronismo, abra a versão da Maria e use também o comando abaixo.
+git pull
+
+```
 
 No vídeo abaixo da Rafaella Ballerini, é apresentado um pequeno resumo do que é o Git e Github. 
 
