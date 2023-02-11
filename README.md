@@ -84,7 +84,37 @@ git push
 
 ```
 
-Retornando ao Github, você verá que as alterações locais foram enviadas para o seu repositório remoto.
+### 4. Versionamento e Merge no mesmo computador
+
+Uma das coisas mais legais do Github é criar versionamento do seus projetos. Abaixo, faremos um exemplo, considerando que duas pessoas (Ana e Julia) estão trabalhando em um projeto no mesmo computador. Baixe o plugin do VSC chamado Git Graph. Isso facilitará a visualização das versões:
+
+```bash
+# Crie 3 versões, repetindo os passos do item 3. Em seguida, crie uma ramificação para Ana.
+git checkout -b Ana
+
+# Crie uma outra ramificação para Julia. Faça algumas alterações no projeto.
+git checkout -b Julia
+
+# Volte para a ramificação da Ana e faça algumas alterações.
+git checkout Ana
+
+# Você consegue verificar em qual ramificação está com o comando abaixo.
+git branch
+
+# Para realizar o merge é necessário voltar para a ramificação master. Faça também algumas alterações.
+git checkout master
+
+# Aglutine a ramificação master com Ana, resolva os conflitos no VSC e repita os passos do item 3.
+git merge Ana
+
+# Aglutine a ramificação master com Julia, resolva os conflitos no VSC e repita os passos do item 3.
+git merge Julia
+
+```
+
+Observe no Git Graph que as três versões da Ana e Julia, agora estão incorporadas na versão Master. 
+
+
 
 
 No vídeo abaixo da Rafaella Ballerini, é apresentado um pequeno resumo do que é o Git e Github. 
