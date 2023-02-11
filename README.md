@@ -142,6 +142,12 @@ git pull
 
 ```
 
+No exemplo acima, simulamos um projeto copiado por dois desenvolvedores, mas você pode trabalhar com "n" desenvolvedores no mesmo projeto, basta que todos sigam o mesmo procedimento listado acima.
+
+## Considerações finais
+
+O Github ainda possui alguns recursos que nos auxiliam no desenvolvimento de aplicações. Por exemplo, na opção **Settings > Pages** é possível hospedar gratuitamente uma página, desde que ela atenda aos requisitos da plataforma. Outro recurso interessante é o [Kanban](#) integrado ao repositório do projeto, que possibilita organizar melhor as tarefas a serem desenvolvidas. Há também a possibilidade de definir um tipo de liçensa especifica para cada projeto, por meio do arquivo License, além de customizar com o uso da linguagem [Markdown](#) ou [HTML](#) o arquivo de descrição README.md.
+
 No vídeo abaixo da Rafaella Ballerini, é apresentado um pequeno resumo do que é o Git e Github. 
 
 [![Assista ao vídeo](https://img.youtube.com/vi/DqTITcMq68k/maxresdefault.jpg)](https://www.youtube.com/watch?v=DqTITcMq68k)
