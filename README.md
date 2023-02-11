@@ -37,26 +37,26 @@ Para as equipes que vêm de um VCS não distribuído, ter um repositório centra
 Agora que você entendeu o que é o controle de versão, o que é o Git e por que as equipes de software deveriam optar por ele, vamos a prática! Considerando que você já [baixou o Git](#) e o [Visual Studio Code](), abra o prompt de comando (MS-DOS, Git ou no VSC) e execute os comandos abaixo: 
 
 ```bash
-#01) Exibe a versão do Git que você instalou.
+# Exibe a versão do Git que você instalou.
 git version
 
-#02) É preciso definir um user no Git.
+# É preciso definir um user no Git.
 git config --global user.name "Fred"
 
-#03) Verifica o nome que você criou
+# Verifica o nome que você criou
 git config user.name
 
-#04) É preciso definir um e-mail no Git.
+# É preciso definir um e-mail no Git.
 git config --global user.email "fred@fred.com"
 
-#05) Verifica o e-mail que você criou
+# Verifica o e-mail que você criou
 git config user.email
 ```
 
 Agora considerando que você já possui uma conta aqui no [Github](#), crie um projeto somente com os arquivos README e com uma [licença MIT](#). Após pronto, você visualizará um botão chamado **Code**. Clique neste botão e copiei a [URL](#) do diretório. Volte para o prompt do Git:
 
 ```bash
-#01) Crie um diretório, baixe o projeto que você criou e abra no VSC
+# Crie um diretório, baixe o projeto que você criou e abra no VSC
 git clone https://github.com/user/project-name.git
 
 ```
