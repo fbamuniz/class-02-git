@@ -165,7 +165,7 @@ Pré-requisitos:
 
 ```bash
 # clonar repositório
-git clone https://github.com/fbamuniz/class-07-git.git
+git clone https://github.com/fbamuniz/class-02-git.git
 
 ```
 
